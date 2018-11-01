@@ -1,0 +1,62 @@
+Version 1.0
+Release the template
+
+Version 1.1
+Fixed parallax for Chrome
+
+Your old code
+
+  .testimonial-holder.with-bg-img{
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+  }
+
+New
+
+  .testimonial-holder.with-bg-img{
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;     -moz-background-size: cover;     -o-background-size: cover;     background-size: cover;   }
+
+Old
+
+    .icons-box.style-4 .item-box i{
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #00a1d9;
+      font-size: 40px;
+
+    }
+
+New
+
+    .icons-box.style-4 .item-box i{
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #00a1d9;
+      font-size: 40px;
+
+      transition: all .45s ease;
+    }
+
+    .icons-box.style-4 .icons-item:hover .item-box i{
+      background: linear-gradient(to right, #00a1d9 0%,#47d9bf 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+Add
+
+  .icons-box.icons-bg.style-2:not(.type-2) .icons-wrap .item-box:hover:after{
+    display: none;
+  }
+
+  .accordion.var2 .a-content .custom-list > li > a:hover{
+    text-decoration: underline;
+  }
