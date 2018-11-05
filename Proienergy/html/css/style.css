@@ -6574,123 +6574,61 @@ button.search-button:before{content: "\e922";}
 
 ------------------------------------- */
 
-.footer{
-  color: #babcbe;
+/*FOOTER START///////////////////*/
+.footer {
+    padding: 50px 0 20px 0;
+    background-color: #003056;
+    color: #878c94;
 }
-
-.footer .main-footer{
-  padding-top: 100px;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
+.footer .title{
+  text-align: left;
+  color:#fff;
+  font-size:25px;
 }
-
-.footer .copyright{
-  text-align: center;
-  padding: 70px 0 60px;
-  font-size: 14px;
-  letter-spacing: 0.5px;
+.footer .social-icon{
+  padding:0px;
+  margin:0px;
 }
-
-  [class*="footer"] .widget{
-    padding: 0;
-    background: transparent;
-  }
-
-  [class*="footer"] .widget:not(:last-child){
-    margin-bottom: 60px;
-  }
-
-  [class*="footer"] .copyright p:not(:last-child){
-    margin-bottom: 0;
-  }
-
-    [class*="footer"] .widget .widget-title{
-      color: #fff;
-      text-transform: uppercase;
-      font-weight: 500;
-      padding: 0;
-      background: none;
-    }
-
-    [class*="footer"] .brend-box{
-      margin: 0 -10px -10px;
-      font-size: 0;
-    }
-
-      [class*="footer"] .brend-box > *{
-        margin: 0 10px 10px;
-        display: inline-block;
-      }
-
-/* ----------------- Footer style-2 ---------------- */
-
-.footer.style-2{
-  background: #102739;
+.footer .social-icon a{
+  display:inline-block;
+  color:#fff;
+  font-size:25px;
+  padding:5px;
 }
-
-  .footer.style-2 .info-links > li > a{
-    font-weight: 300;
-    font-size: 16px;
-  }
-
-  .footer.style-2 #newsletter.style-2 input:not([type="submit"]){
-    min-width: 295px;
-  }
-
-  .footer.style-2 .copyright{
-    padding: 60px 0 50px;
-  }
-
-  .footer.style-2 .widge-holder{
-    margin: 0 -15px -30px;
-  }
-
-    .footer.style-2 .widge-holder .widget{
-      padding: 0 15px 30px;
-    }
-
-    .footer.style-2 .widge-holder .widget:not(:last-child){
-      margin-bottom: 0;
-    }
-
-/* ----------------- Footer style-3 ---------------- */
-
-.footer.style-3{
-  padding-top: 90px;
-  background: #fff;
-  color: #222;
+.footer .acount-icon a{
+  display:block;
+  color:#fff;
+  font-size:18px;
+  padding:5px;
+  text-decoration:none;
 }
-
-.footer.style-3 .main-footer{
-  padding-top: 0;
-  padding-bottom: 70px;
+.footer .acount-icon .fa{
+  margin-right:25px;
 }
-
-  .footer.style-3 .top-footer:not(:last-child){
-    margin-bottom: 60px;
-  }
-
-  .footer.style-3 .top-footer .flex-row{
-    margin: 0 -15px -30px; 
-  }
-
-  .footer.style-3 .top-footer .flex-row > *{
-    padding: 0 15px 30px;
-  }
-
-    .footer.style-3 .top-footer .info-links > li > a{
-      color: #00a1d9;
-      font-weight: 300;
-    }
-
-    .footer.style-3 .widget .widget-title{
-      color: #003056;
-    }
-
-  .footer.style-3 .copyright{
-    background: #fafafa;
-    padding: 25px 0;
-    color: #777;
-    border-top: 1px solid #eee;
-  }
+.footer .category a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius:4px;
+    margin-top: 6px;
+    background-color: black;
+    border: solid 1px #fff;
+}
+.footer .payment{
+  margin:0px;
+  padding:0px;
+  list-style-type:none
+}
+.footer .payment li{
+  list-style-type:none
+}
+.footer .payment li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    float: left;
+    font-size: 25px;
+    padding: 10px 10px;
+}
