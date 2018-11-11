@@ -77,7 +77,7 @@ b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
+article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video{
   margin: 0;
@@ -103,7 +103,7 @@ ol{
 
 q{quotes: none;}
 
-table, table td{ 
+table, table td{
   padding: 0;
   border: none;
   border-collapse: collapse;
@@ -111,7 +111,7 @@ table, table td{
 }
 
 img{
-  vertical-align: top; 
+  vertical-align: top;
   max-width: 100%;
 }
 
@@ -133,7 +133,7 @@ html,body{height: 100%;}
 
 /* -----------------------------------
 
-  2. Global 
+  2. Global
 
 ------------------------------------- */
 
@@ -166,12 +166,12 @@ body{
 
 ::-moz-selection{
   background: #04518c;
-  color: #fff; 
+  color: #fff;
 }
 
 ::-o-selection{
   background: #04518c;
-  color: #fff; 
+  color: #fff;
 }
 
 ::-ms-selection{
@@ -227,9 +227,9 @@ textarea::-moz-placeholder{
 }
 
 /* ------------------------------------------------------
-  
+
   3. General classes
-  
+
 ------------------------------------------------------ */
 
 .full-width{width: 100%!important;}
@@ -495,7 +495,7 @@ a.link-text2{
   color: #00a1d9;
 }
 
-[class^="icon-"]:before, 
+[class^="icon-"]:before,
 [class*="icon-"]:before{
   width: auto;
   margin: 0;
@@ -816,7 +816,7 @@ a:hover .tooltip{
     }
 
     .header.style-2 .menu-holder{
-      padding: 30px 0;
+      padding: 10px 0;
     }
 
   .header.style-2.sticky-header.clone-fixed:not(.type-2) .menu-holder{
@@ -857,7 +857,7 @@ a:hover .tooltip{
       border-radius: 3px;
     }
 
-    .header.style-3 .main-navigation > ul > li.current > a, 
+    .header.style-3 .main-navigation > ul > li.current > a,
     .header.style-3 .main-navigation > ul > li:hover > a{
       background: transparent;
       color: #47d9bf;
@@ -868,12 +868,12 @@ a:hover .tooltip{
       color: #fff;
     }
 
-    .header.style-3 button.search-button, 
+    .header.style-3 button.search-button,
     .header.style-3 .shop-cart .sc-cart-btn{
       color: #fff;
     }
 
-    .header.style-3 .search-holder .btn, 
+    .header.style-3 .search-holder .btn,
     .header.style-3 .clone-fixed .search-holder .search-button{
       display: inline-block;
     }
@@ -937,7 +937,7 @@ a:hover .tooltip{
     z-index: 999;
     border-radius: 3px;
     overflow: hidden;
-    
+
     -webkit-transition: all .4s ease;
     transition: all .4s ease;
   }
@@ -1090,7 +1090,7 @@ a:hover .tooltip{
     height: 100%;
   }
 
-  .main-navigation > ul > li:hover > .sub-menu-wrap:not(.sub-menu-inner), 
+  .main-navigation > ul > li:hover > .sub-menu-wrap:not(.sub-menu-inner),
   .sub-menu-wrap ul li:hover .sub-menu-wrap.sub-menu-inner{
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
@@ -1106,7 +1106,7 @@ a:hover .tooltip{
       display: block;
       white-space: pre;
       position: relative;
-      font-size: 16px; 
+      font-size: 16px;
       line-height: 20px;
       padding: 12px 35px 12px 25px;
       color: #2a2c32;
@@ -1185,7 +1185,7 @@ a:hover .tooltip{
 }
 
 .sub-menu-wrap.mega-menu .mega-submenu{
-  padding: 30px 0 20px;
+  padding: 10px 0 10px;
 }
 
 [class*="header"]:not(.style-3) .sub-menu-wrap.mega-menu{
@@ -1342,9 +1342,9 @@ button.search-button:before{content: "\e922";}
   }
 
 /* ------------------------------------------------------
-    
+
     6. Content Elements
-    
+
 ------------------------------------------------------ */
 
 #content{
@@ -1361,14 +1361,14 @@ button.search-button:before{content: "\e922";}
   background-position: center center;
   height: 100%;
   width: 100%;
-  -webkit-background-size: 100%; 
-  -moz-background-size: 100%; 
-  -o-background-size: 100%; 
-  background-size: 100%; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .half-bg-col{
@@ -1383,9 +1383,9 @@ button.search-button:before{content: "\e922";}
   height: 100%;
   width: 100%;
   background-position: center center;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -1416,10 +1416,10 @@ button.search-button:before{content: "\e922";}
     background-repeat: no-repeat!important;
     background-position: center center!important;
     height: 100%;
-    width: 100%; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover!important;
   }
 
@@ -1713,8 +1713,8 @@ button.search-button:before{content: "\e922";}
     content: '\e93c';
   }
 
-.tp-bullet, 
-.tp-bullet.selected, 
+.tp-bullet,
+.tp-bullet.selected,
 .tp-bullet:hover{
     background: none;
     height: auto;
@@ -2006,7 +2006,7 @@ button.search-button:before{content: "\e922";}
     visibility: hidden;
     font-family: 'Linearicons';
     -webkit-animation-duration: .5s;
-    animation-duration: .5s;    
+    animation-duration: .5s;
   }
 
   .go-to-top.go-top-visible {
@@ -2170,7 +2170,7 @@ button.search-button:before{content: "\e922";}
       font-weight: 300;
       color: #222;
       margin-bottom: 3px;
-      display: block;   
+      display: block;
     }
 
     legend{
@@ -2463,7 +2463,7 @@ button.search-button:before{content: "\e922";}
         }
 
     /* Form variations */
-    
+
     [id*="newsletter"] .btn{
       margin-left: 10px;
     }
@@ -2483,8 +2483,8 @@ button.search-button:before{content: "\e922";}
         width: 100%;
       }
 
-      .form-wrap.style-2 input:not([type="submit"]), 
-      .form-wrap.style-2 textarea, 
+      .form-wrap.style-2 input:not([type="submit"]),
+      .form-wrap.style-2 textarea,
       .form-wrap.style-2 .custom-select .select-title,
       .form-wrap.style-2 .custom-select .select-list{
         border-color: #fff;
@@ -3150,7 +3150,7 @@ button.search-button:before{content: "\e922";}
     }
 
     .quantity input[type="text"] {
-      width: 110px; 
+      width: 110px;
       text-align: center;
       padding: 0 45px;
     }
@@ -3873,7 +3873,7 @@ button.search-button:before{content: "\e922";}
   .icons-box.style-1 .item-box > i:not(:last-child){
     margin-bottom: 15px;
   }
-  
+
   /* Icons-style-2 */
 
   .icons-box.style-2 .item-box{
@@ -4147,10 +4147,10 @@ button.search-button:before{content: "\e922";}
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: cover; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   .testimonial-holder.with-bg-img:not(.page-section){
@@ -4838,7 +4838,7 @@ button.search-button:before{content: "\e922";}
     display: -ms-flex;
     display: -o-flex;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
     justify-content: center;
@@ -5060,7 +5060,7 @@ button.search-button:before{content: "\e922";}
     display: none;
   }
 
-  .widget-calendar .owl-carousel .owl-prev, 
+  .widget-calendar .owl-carousel .owl-prev,
   .widget-calendar .owl-carousel .owl-next{
     top: 5px;
     margin-top: 0;
@@ -5337,7 +5337,7 @@ button.search-button:before{content: "\e922";}
   /* ------------------------------------------------------
 
       Comments
-      
+
   ------------------------------------------------------ */
 
   .comments-list{
@@ -5733,7 +5733,7 @@ button.search-button:before{content: "\e922";}
   color: #2a2c32;
 }
 
-.checkbox-title input[type="radio"] + label::before, 
+.checkbox-title input[type="radio"] + label::before,
 .checkbox-title input[type="checkbox"] + label::before{
     left: auto;
     right: 0;
@@ -5819,7 +5819,7 @@ button.search-button:before{content: "\e922";}
   .products-holder.with-separators:after{
     bottom: 0;
   }
-    
+
   .products-holder .product-col{
     padding: 30px 15px 0;
     width: 100%;
@@ -5854,7 +5854,7 @@ button.search-button:before{content: "\e922";}
   .product:hover .product-image .overlay{
     opacity: 1;
     visibility: visible;
-    bottom: 20px; 
+    bottom: 20px;
   }
 
   .product .product-description .product-name:hover a{
@@ -6515,7 +6515,7 @@ button.search-button:before{content: "\e922";}
     margin: 0 -10px -20px;
   }
 
-  .widget .entry-box.entry-small .thumbnail-attachment, 
+  .widget .entry-box.entry-small .thumbnail-attachment,
   .widget .entry-box.entry-small .entry-body{
     padding: 0 10px 20px;
   }
