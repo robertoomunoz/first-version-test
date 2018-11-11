@@ -112,7 +112,7 @@ table, table td{
 
 img{
   vertical-align: top;
-  max-width: 100%;
+  max-width: 20%;
 }
 
 embed{ vertical-align: top;}
@@ -224,6 +224,40 @@ textarea::-moz-placeholder{
 [placeholder]:focus::-webkit-textarea-placeholder{
   text-indent:10em;
   color:transparent;
+}
+
+.hero-image {
+  background-image: url("../images/Solar-Banner-v2.jpg");
+  background-color: #cccccc;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: relative;
+  top: 130px;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-text .h1-hero{
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  line-height: 1.3em;
+  font-size: 70px;
+  letter-spacing: 5px;
+}
+
+.hero-text .p-hero{
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  line-height: 1.3em;
+  font-size: 30px;
+  letter-spacing: 1px;
 }
 
 /* ------------------------------------------------------
@@ -796,10 +830,10 @@ a:hover .tooltip{
   }
 
   .header.style-2 .menu-holder{
-    background: #e6eef4;
-    background: -moz-linear-gradient(left, #e6eef4 0%, #edfbf9 100%);
-    background: -webkit-linear-gradient(left, #e6eef4 0%,#edfbf9 100%);
-    background: linear-gradient(to right, #e6eef4 0%,#edfbf9 100%);
+    background: #B3D2EE;
+    background: -moz-linear-gradient(left, #B3D2EE 0%, #B3D2EE 100%);
+    background: -webkit-linear-gradient(left, #B3D2EE 0%,#B3D2EE 100%);
+    background: linear-gradient(to right, #B3D2EE 0%,#B3D2EE 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6eef4', endColorstr='#edfbf9',GradientType=1 );
   }
 
