@@ -6632,3 +6632,25 @@ button.search-button:before{content: "\e922";}
     font-size: 25px;
     padding: 10px 10px;
 }
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+.banner .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+  width:100%;
+}
+.banner .content h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.banner .content p {
+  font-weight: 300;
+  margin-bottom: 10px;
+}

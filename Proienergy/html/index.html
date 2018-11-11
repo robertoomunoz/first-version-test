@@ -39,7 +39,6 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
 
-
 </head>
 
 <body>
@@ -82,7 +81,7 @@
 
               <div class="logo-wrap">
 
-                <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+                <a href="index.html" class="logo"><img src="images/" alt=""></a>
 
               </div>
               <div class="nav-item flex-row flex-center">
@@ -133,27 +132,25 @@
 
       </div>
 
-    </header>
 
+
+    </header>
     <!-- - - - - - - - - - - - - end Header - - - - - - - - - - - - - - - -->
 
-
-       <div class="breadcrumbs-wrap style-2">
-
-      <div class="container">
-
-        <h1 class="page-title">Schedule an Appointment</h1>
-
-        <ul class="breadcrumbs">
-
-          <li><a href="index.html">Home</a></li>
-          <li>Schedule an Appointment</li>
-
-        </ul>
-
+<div class="banner">
+  <div class="overlay"></div>
+  <img src="images/Landing-homepage-banner.jpg" class="img-responsive">
+  <div class="content">
+    <div class="container">
+      <div class="col-md-8">
+        <h2>Lorem ipsum dolor sit amet, consectetur</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="#" class="btn btn-primary" role="button">Our Services</a>
       </div>
-
     </div>
+  </div>
+</div>
 
     <!-- Icon's Box -->
 
@@ -459,7 +456,6 @@
         </div>
 
       </div>
-
       <!-- page section -->
       <div class="page-section type2 parallax-section" data-bg="images/1920x800_bg1.jpg">
 
@@ -642,6 +638,26 @@
   <script src="js/libs/jquery-2.2.4.min.js"></script>
   <script src="js/libs/jquery-ui.min.js"></script>
   <script src="js/libs/retina.min.js"></script>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '306897399911507',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.12'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>      <div class="fb-customerchat" page_id="200552320125836"></div>
+
+
 
   <script src="plugins/revolution/js/jquery.themepunch.tools.min.js?ver=5.0"></script>
   <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js?ver=5.0"></script>
