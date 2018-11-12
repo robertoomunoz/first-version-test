@@ -112,7 +112,7 @@ table, table td{
 
 img{
   vertical-align: top;
-  max-width: 20%;
+  max-width: 200px;
 }
 
 embed{ vertical-align: top;}
@@ -227,7 +227,7 @@ textarea::-moz-placeholder{
 }
 
 .hero-image {
-  background-image: url("../images/Solar-Banner-v2.jpg");
+  background-image: url("../images/roof-v1.jpg");
   background-color: #cccccc;
   height: 300px;
   background-position: center;
@@ -3897,7 +3897,7 @@ button.search-button:before{content: "\e922";}
   }
 
   .icons-box.style-1 .item-box > i{
-    color: #ffdb3e;
+    color: orange;
     font-size: 40px;
     display: block;
   }
