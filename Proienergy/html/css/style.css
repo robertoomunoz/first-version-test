@@ -465,6 +465,7 @@ h3:not(:last-child){
 
 h4:not(:last-child){
   margin-bottom: 15px;
+  color: white;
 }
 
 h5:not(:last-child){
@@ -6612,7 +6613,8 @@ button.search-button:before{content: "\e922";}
 ------------------------------------- */
 
 .footer{
-  color: #babcbe;
+  background-color: #04518c;
+  color: white;
 }
 
 .footer .main-footer{
@@ -6620,6 +6622,7 @@ button.search-button:before{content: "\e922";}
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
+  color: white;
 }
 
 .footer .copyright{
@@ -6627,18 +6630,23 @@ button.search-button:before{content: "\e922";}
   padding: 70px 0 60px;
   font-size: 14px;
   letter-spacing: 0.5px;
+  color: white;
+  
 }
 
   [class*="footer"] .widget{
     padding: 0;
     background: transparent;
+    color: white;
   }
 
   [class*="footer"] .widget:not(:last-child){
+    color: white;
     margin-bottom: 60px;
   }
 
   [class*="footer"] .copyright p:not(:last-child){
+color: white;
     margin-bottom: 0;
   }
 
@@ -6648,11 +6656,13 @@ button.search-button:before{content: "\e922";}
       font-weight: 500;
       padding: 0;
       background: none;
+      color: white;
     }
 
     [class*="footer"] .brend-box{
       margin: 0 -10px -10px;
       font-size: 0;
+      color: white;
     }
 
       [class*="footer"] .brend-box > *{
@@ -6660,74 +6670,3 @@ button.search-button:before{content: "\e922";}
         display: inline-block;
       }
 
-/* ----------------- Footer style-2 ---------------- */
-
-.footer.style-2{
-  background: #102739;
-}
-
-  .footer.style-2 .info-links > li > a{
-    font-weight: 300;
-    font-size: 16px;
-  }
-
-  .footer.style-2 #newsletter.style-2 input:not([type="submit"]){
-    min-width: 295px;
-  }
-
-  .footer.style-2 .copyright{
-    padding: 60px 0 50px;
-  }
-
-  .footer.style-2 .widge-holder{
-    margin: 0 -15px -30px;
-  }
-
-    .footer.style-2 .widge-holder .widget{
-      padding: 0 15px 30px;
-    }
-
-    .footer.style-2 .widge-holder .widget:not(:last-child){
-      margin-bottom: 0;
-    }
-
-/* ----------------- Footer style-3 ---------------- */
-
-.footer.style-3{
-  padding-top: 90px;
-  background: #fff;
-  color: #222;
-}
-
-.footer.style-3 .main-footer{
-  padding-top: 0;
-  padding-bottom: 70px;
-}
-
-  .footer.style-3 .top-footer:not(:last-child){
-    margin-bottom: 60px;
-  }
-
-  .footer.style-3 .top-footer .flex-row{
-    margin: 0 -15px -30px;
-  }
-
-  .footer.style-3 .top-footer .flex-row > *{
-    padding: 0 15px 30px;
-  }
-
-    .footer.style-3 .top-footer .info-links > li > a{
-      color: #00a1d9;
-      font-weight: 300;
-    }
-
-    .footer.style-3 .widget .widget-title{
-      color: #003056;
-    }
-
-  .footer.style-3 .copyright{
-    background: #fafafa;
-    padding: 25px 0;
-    color: #777;
-    border-top: 1px solid #eee;
-  }
