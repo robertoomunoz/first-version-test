@@ -831,11 +831,8 @@ a:hover .tooltip{
   }
 
   .header.style-2 .menu-holder{
-    background: #B3D2EE;
-    background: -moz-linear-gradient(left, #B3D2EE 0%, #B3D2EE 100%);
-    background: -webkit-linear-gradient(left, #B3D2EE 0%,#B3D2EE 100%);
-    background: linear-gradient(to right, #B3D2EE 0%,#B3D2EE 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6eef4', endColorstr='#edfbf9',GradientType=1 );
+    background: #04518c;
+
   }
 
     .header.style-2 .pre-header .menu-list > li a{
@@ -895,7 +892,7 @@ a:hover .tooltip{
     .header.style-3 .main-navigation > ul > li.current > a,
     .header.style-3 .main-navigation > ul > li:hover > a{
       background: transparent;
-      color: #47d9bf;
+      color: wheat;
     }
 
     .header.style-3 .main-navigation > ul > li > a{
@@ -1036,7 +1033,7 @@ a:hover .tooltip{
 
 .main-navigation > ul > li > a{
   font-family: 'Oswald', sans-serif;
-  color: #2a2c32;
+  color: wheat;
   font-weight: 500;
   text-transform: uppercase;
   display: block;
@@ -6615,6 +6612,8 @@ button.search-button:before{content: "\e922";}
 .footer{
   background-color: #04518c;
   color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .footer .main-footer{
@@ -6631,7 +6630,7 @@ button.search-button:before{content: "\e922";}
   font-size: 14px;
   letter-spacing: 0.5px;
   color: white;
-  
+
 }
 
   [class*="footer"] .widget{
@@ -6669,4 +6668,3 @@ color: white;
         margin: 0 10px 10px;
         display: inline-block;
       }
-
